@@ -3,7 +3,7 @@
 	<m_MaleModel>media\models_X\Skinned\Clothes\Baggier_CuffedWideLegJean_Tucked.fbx</m_MaleModel>
 	<m_FemaleModel>media\models_X\Skinned\Clothes\Baggier_CuffedWideLegJean_Tucked.fbx</m_FemaleModel>
 	<m_GUID>51d6b59b-84ef-4475-b76a-557002480dbd</m_GUID>
-<!-- 	<m_Static>false</m_Static> -->
+	<m_Static>false</m_Static>
 	<m_AllowRandomHue>false</m_AllowRandomHue>
 	<m_AllowRandomTint>false</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>

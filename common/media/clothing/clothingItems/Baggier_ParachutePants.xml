@@ -4,7 +4,6 @@
 	<m_FemaleModel>media\models_X\Skinned\Clothes\Baggier_ParachutePants.fbx</m_FemaleModel>
 	<m_GUID>769fffcc-1989-4817-8f58-6449c4bf7534</m_GUID>
 	<m_Static>false</m_Static>
-
 	<m_AllowRandomHue>false</m_AllowRandomHue>
 	<m_AllowRandomTint>true</m_AllowRandomTint>
 	<m_AttachBone></m_AttachBone>
