@@ -1,0 +1,181 @@
+module Base
+{
+
+	item Baggier_TaperedWideLegJeans
+	{
+		ClothingItem = Baggier_TaperedWideLegJeans,
+
+		DisplayName =  Tapered Wide Leg Jeans,
+
+		Icon = Baggier_Pants,
+		BodyLocation = BaggierPants,
+		BloodLocation = Trousers,
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+        FabricType = Denim,
+
+		BiteDefense = 15,
+		ScratchDefense = 25,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+
+        WorldStaticModel = Baggier_Ground,
+
+	}
+	/* -----------------------            --------------------------- */
+	item Baggier_ParachutePants
+	{
+		ClothingItem = Baggier_ParachutePants,
+
+        ClothingItemExtra = Baggier_ParachutePants_Tucked,
+        ClothingItemExtraOption = Wear_Tucked,
+        clothingExtraSubmenu = Wear_Untucked,
+
+
+		DisplayName = Parachute Pants,
+
+		Icon = Baggier_Pants,
+		BodyLocation = BaggierPants,
+		BloodLocation = Trousers,
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+
+		FabricType = Cotton,
+
+		BiteDefense = 15,
+		ScratchDefense = 25,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+
+        WorldStaticModel = Baggier_Ground,
+
+
+	}
+
+	item Baggier_ParachutePants_Tucked
+	{
+		ClothingItem = Baggier_ParachutePants_Tucked,
+
+        ClothingItemExtra = Baggier_ParachutePants,
+        ClothingItemExtraOption = Wear_Untucked,
+        clothingExtraSubmenu = Wear_Tucked,
+
+		DisplayName = Parachute Pants (Tucked),
+
+		Icon = Baggier_Pants,
+		BodyLocation = BaggierPants,
+		BloodLocation = Trousers,
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+
+		FabricType = Cotton,
+
+		BiteDefense = 15,
+		ScratchDefense = 25,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+
+        WorldStaticModel = Baggier_Ground,
+
+	}
+
+
+
+	/* -----------------------            --------------------------- */
+
+	item Baggier_CuffedWideLegJean
+	{
+		ClothingItem = Baggier_CuffedWideLegJean,
+
+        ClothingItemExtra = Baggier_CuffedWideLegJean_Tucked,
+        ClothingItemExtraOption = Wear_Tucked,
+        clothingExtraSubmenu = Wear_Untucked,
+
+		DisplayName = Cuffed Wide Leg Jean,
+
+		Icon = Baggier_Pants,
+		BodyLocation = BaggierPants,
+		BloodLocation = Trousers,
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+        FabricType = Denim,
+
+		BiteDefense = 15,
+		ScratchDefense = 25,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+        WorldStaticModel = Baggier_Ground,
+
+	}
+	item Baggier_CuffedWideLegJean_Tucked
+	{
+		ClothingItem = Baggier_CuffedWideLegJean_Tucked,
+
+        ClothingItemExtra = Baggier_CuffedWideLegJean,
+        ClothingItemExtraOption = Wear_Untucked,
+        clothingExtraSubmenu = Wear_Tucked,
+
+		DisplayName = Cuffed Wide Leg Jean (Tucked),
+
+		Icon = Baggier_Pants,
+		BodyLocation = BaggierPants,
+		BloodLocation = Trousers,
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+        FabricType = Denim,
+
+		BiteDefense = 15,
+		ScratchDefense = 25,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+
+        WorldStaticModel = Baggier_Ground,
+
+	}
+	/* -----------------------            --------------------------- */
+
+	item Baggier_CuffedWideLegJorts
+	{
+		ClothingItem = Baggier_CuffedWideLegJorts,
+
+		DisplayName = Cuffed Wide Leg Jorts,
+
+		Icon = Baggier_Jorts,
+		BodyLocation = BaggierPants,
+		BloodLocation = ShortsShort,
+	    DisplayCategory = Clothing,
+		Type = Clothing,
+        FabricType = Denim,
+
+		BiteDefense = 15,
+		ScratchDefense = 25,
+        Insulation = 0.4,
+        WindResistance = 0.3,
+
+        WorldStaticModel = Baggier_Ground,
+
+	}
+
+
+
+	/* -----------------------            --------------------------- */
+
+
+	model Baggier_Ground
+    {
+		mesh = WorldItems/Clothing/Baggier_Ground,
+		scale = 1,
+    }
+
+	/* -----------------------            --------------------------- */
+
+    recipe Cut Pants
+    {
+        keep [Recipe.GetItemTypes.Scissors],
+		Baggier_CuffedWideLegJean/Baggier_CuffedWideLegJean_Tucked,
+		Result:Baggier_CuffedWideLegJorts,
+		Time:120.0,
+		Category:Survivalist,
+    }
+}
+

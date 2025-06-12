@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+
+	<files>
+		<path>media/clothing/clothingItems/Baggier_ParachutePants.xml</path>
+		<guid>769fffcc-1989-4817-8f58-6449c4bf7534</guid>
+    </files>
+	<files>
+		<path>media/clothing/clothingItems/Baggier_ParachutePants_Tucked.xml</path>
+		<guid>891359f-26c4-42a5-83b5-82c70e21318d</guid>
+    </files>
+
+    <!-- ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; -->
+
+
+	<files>
+		<path>media/clothing/clothingItems/Baggier_TaperedWideLegJeans.xml</path>
+		<guid>53e6b857-32dc-456e-b7a4-e5d49e55287a</guid>
+    </files>
+
+    <!-- ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; -->
+	<files>
+		<path>media/clothing/clothingItems/Baggier_CuffedWideLegJean.xml</path>
+		<guid>80727d88-cd4f-4b70-bfbc-ff0dfb9818d6</guid>
+    </files>
+
+	<files>
+		<path>media/clothing/clothingItems/Baggier_CuffedWideLegJean_Tucked.xml</path>
+		<guid>51d6b59b-84ef-4475-b76a-557002480dbd</guid>
+    </files>
+
+	<files>
+		<path>media/clothing/clothingItems/Baggier_CuffedWideLegJorts.xml</path>
+		<guid>1e8c3ee1-5637-4fcf-802a-55df14fe6353</guid>
+    </files>
+    <!-- ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; -->
+
+
+</fileGuidTable>
